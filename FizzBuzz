@@ -1,0 +1,14 @@
+#def FizzBuzz():
+fizz = ('Fizz')
+for i in range (3):
+	print (fizz)
+
+buzz = ('Buzz')
+for i in range(5):
+	print (buzz)
+
+fizzbuzz = ('FizzBuzz')
+for i in range(8):
+	print(FizzBuzz)
+
+
