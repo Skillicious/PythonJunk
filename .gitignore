@@ -36,3 +36,7 @@
 ehthumbs.db
 Thumbs.db
 
+# Aryas Custom Files
+Code/*
+GOALS
+__pycache__/*
