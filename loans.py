@@ -1,0 +1,15 @@
+def loans():
+   req = input("how much would you like to borrow?")
+
+#   playerbank = req
+
+   return
+
+
+#from sumDiff import*
+#num1, num2 = eval(input(" please enter two numbers (num1, num2) "))
+#s,d = sumDiff(num1, num2)
+#print("The sum is", s, "and the diffrence is", d)
+
+loans()
+

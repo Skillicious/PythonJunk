@@ -1,0 +1,7 @@
+aws = ("I like Python...Hisssssssss")
+yea = ("Pythons are snakes")
+
+print (aws + yea)
+
+
+

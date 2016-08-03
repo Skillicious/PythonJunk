@@ -1,0 +1,40 @@
+
+import random
+#import loans
+
+player = input("Enter your choice (Heads or Tails): ")
+playerbid = eval(input("Enter your bet: "))
+playerloop = eval(input("number of loops:"))
+j = 0
+
+k = 0
+
+
+tlist = ['Heads' , 'Tails']
+#House = random.choice(tlist)
+playerbank = 1000
+
+for i in range (playerloop):
+   if (playerbank < playerbid):
+#      loanamount = input("You don't have enough money! Take out a Loan? (Y/N) ")
+#      if loanamount == "Y":
+#         playerbank = loans()
+#      else:   
+         break
+   House = random.choice(tlist)
+
+   if (House == player):
+      j = j + 1
+      print ("win")
+      playerbank = playerbank + playerbid
+      print ("player win ",playerbank)
+   else:
+      k = k + 1
+      print ("lose")
+      playerbank = playerbank - playerbid
+      print ("player lose ", playerbank)
+      
+print (playerbank)
+print ("number of wins ", j)
+print ("number of loses ", k)
+

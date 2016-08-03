@@ -1,0 +1,7 @@
+score = input("What is your score: ")
+grade = ["A", "B", "C", "D", "F"]
+gs = grade[int(gs-1)]
+
+
+print (grade[gs])
+

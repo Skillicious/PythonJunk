@@ -1,0 +1,17 @@
+import random
+
+
+def main():
+
+#   choice = input("Input a 1 or 0: ")
+
+   computerInt = random.randint(0,101)
+   if computerInt >= 50:
+      print("Pizza Party")
+   else:
+      print("Steak Party")       
+
+
+   print(computerInt)
+
+main()

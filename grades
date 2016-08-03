@@ -1,0 +1,28 @@
+#white a program that accepts a quiz score and prints a grade
+
+
+score = input("What is your score: ")
+
+if (score == 5):
+	print ("A")
+elif (score == 4):
+	print ("B")
+elif (score == 3):
+	print ("C")
+elif (score == 2):
+	print ("D")
+else:
+	print ("F")
+
+
+score = input("What is your score: ")
+#grade = ["A", "B", "C", "D", "F"]
+#gs = score +1
+
+
+#print (grade[gs])
+
+if score == chr(97):
+        print ("works")
+else:
+        print ("bad")

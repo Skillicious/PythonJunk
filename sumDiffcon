@@ -1,0 +1,8 @@
+#import sumDiff.py 
+# This program imports a function from sumDiff
+
+from sumDiff import*
+
+num1, num2 = eval(input(" please enter two numbers (num1, num2) "))
+s,d = sumDiff(num1, num2)
+print("The sum is", s, "and the diffrence is", d)

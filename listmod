@@ -1,0 +1,7 @@
+x = ('Pizza')
+for i in range(10):
+
+
+	list = [x]
+
+	print (list)

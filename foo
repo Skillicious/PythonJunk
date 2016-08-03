@@ -1,0 +1,7 @@
+# Simultaneous Assignment
+
+cat,dog = "1","3"
+print cat
+print dog
+
+# you can print one or the other or both

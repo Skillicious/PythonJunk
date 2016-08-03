@@ -1,0 +1,15 @@
+import random
+
+player = input("Enter your choice (Heads or Tales): ")
+
+Heads = 0
+Tales = 1
+
+House = random.randint(0,1)
+
+if (House == player):
+   print ("win")
+else:
+   print ("lose")
+
+

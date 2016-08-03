@@ -1,0 +1,46 @@
+import random
+
+player = input("Enter your choice (rock/paper/scissors): ");
+player = player.lower();
+while (player != "rock" and player !="paper" and player != "scissors"):
+	print(player);
+	player = input("That choice is not valid. Enter your choice (rock/paper/scissors): ");
+	player = player.lower();
+
+computerInt = random.randint(0,2)
+if (computerInt == 0):
+       	computer = "rock"
+elif (computerInt == 1):
+        computer = "paper"
+elif (computerInt == 2):
+        computer = "scisssors"
+else:
+        computer = "Error"          
+
+
+if (player == computer):
+	print ("Draw")  
+elif (player == "rock"):       
+	if (computer == "paper"):
+		print ("Computer wins")  
+	else:
+		print ("Player win")
+elif (player == "paper"):
+	if (computer == "scissors"):
+		print ("Computer wins")
+	else:
+		print ("Player win")
+elif (player == "scissors"):        
+	if (computer == "rock"):
+		print ("Computer wins")
+	else:
+		print ("Player wins")
+
+
+#print(player)
+#print (computer) 
+
+print("Your choice: " + player + "\nComputer choice: " + computer );     
+
+
+                                                                                      

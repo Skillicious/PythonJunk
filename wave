@@ -1,0 +1,10 @@
+# create a program that can clear or otterate through a printed statement to make a "wave"
+example:
+(----------------------/----)
+(---------------------/-----)
+(--------------------/------)
+(-------------------/-------)
+(------------------/--------)
+
+# all on one line with a continuous clearing printed string that "moves"  
+

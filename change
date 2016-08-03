@@ -1,0 +1,17 @@
+def main():
+
+	print("Change Counter")
+	print("Please enter the count of each coin type.")
+
+	q = eval(input("quarters: "))
+	
+	d = eval(input("dimes: "))
+	
+	n = eval(input("nickles: ")) 
+	
+	p = eval(input("pennies: "))
+
+	total = q * .25 + d * .10 + n * .05 + p * .01
+	print("The total value of your change us ", total)
+
+main()

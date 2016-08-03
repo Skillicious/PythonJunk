@@ -1,0 +1,6 @@
+h = int(input("Enter a number: "))
+f = int(input("Enter a number: "))
+
+list(range(h,f))
+
+print (list)

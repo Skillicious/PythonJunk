@@ -1,0 +1,14 @@
+string = ("wonderful")
+
+if string == ("o"):
+	print ("working")
+else:
+	print("no work")
+
+#string = ("1")
+#input = string
+#if string == true:
+#        print ("working")
+#else:
+#        print("no work")
+

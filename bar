@@ -1,0 +1,61 @@
+import time
+
+#print ("Correcting Syntax Mistakes")
+
+#h = int(input("Enter a number: "))
+#max = 10
+#for i in range(0,max):
+
+
+#	if h >= 10:
+#		print ('.'),
+#	else:
+#		print('/')
+		
+
+
+x = ('----------------------')
+
+print(x)
+
+#print ('/') [0],
+
+time.sleep(2)
+print(x)
+
+x = ('/---------------------')
+
+time.sleep(2)
+print (x)
+
+x = ('-/--------------------')
+
+time.sleep(2)
+print (x)
+
+x = ('--/-------------------')
+
+time.sleep(2)
+print (x)
+
+x = ('---/------------------')
+
+time.sleep(2)
+print (x)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

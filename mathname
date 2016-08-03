@@ -1,0 +1,14 @@
+# get name, a = 1 b = 2 c = 3.........
+# add them together
+
+name = input("give me your name: ")
+letter = ("abcdefghijklmnopqrstuvwxyz")
+
+index = 0
+print (name)
+for char in name:
+	zika = letter.find(char) + 1
+	index = zika + index
+print ("grand total sum of letters = ", index)
+
+

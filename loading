@@ -1,0 +1,13 @@
+import time
+import sys
+
+#for x in range (0,5):  
+#    b = "------" + "." * x
+#    print (b, end="\r")
+#    time.sleep(1)
+
+for i in range(10):
+    print("Loading" + "." * i)
+    sys.stdout.write("\033[F") # Cursor up one line
+    time.sleep(1)
+

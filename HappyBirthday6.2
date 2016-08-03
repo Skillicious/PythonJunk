@@ -1,0 +1,20 @@
+>>> def happy():
+...     print("Happy Birthday To You!")
+... 
+>>> 
+>>> def sing(person)
+  File "<stdin>", line 1
+    def sing(person)
+                   ^
+SyntaxError: invalid syntax
+>>> def sing(person):
+...     happy()
+...     happy()
+...     print("Happy Birthday, dear", person + ".")
+...     happy()
+... 
+>>> sing("Fred")
+Happy Birthday To You!
+Happy Birthday To You!
+Happy Birthday, dear Fred.
+Happy Birthday To You!

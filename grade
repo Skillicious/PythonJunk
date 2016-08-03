@@ -1,0 +1,10 @@
+score = input("What is your score: ")
+scorelist = score.list
+print(scorelist)
+grade = ["A", "B", "C", "D", "F"]
+#gs = grade[int(score)]
+
+print (score)
+
+print (grade[4])
+

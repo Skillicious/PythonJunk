@@ -1,0 +1,10 @@
+def main():
+	inString = input ("please ener the unicode message: ")
+	message = ""
+	for numStr in inString.split():
+		codeNum = eval(numStr)
+		message = message + chr(codeNum)
+	print("\nThe decoded message is:", message)
+
+main()
+

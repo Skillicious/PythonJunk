@@ -1,0 +1,27 @@
+# This line itterates lenth  f a string
+
+s = input("Enter the first word: ")
+t = input("Enter the second word: ")
+k = 0
+
+if len(s) == len(t):	
+	print ("The two words are the same length!")
+else:
+	print ("The two words are not the same length!")
+
+for i in range(len(s)):
+#	print s[i]
+	for j in range(len(s)):
+#		print t[j]	
+		if s[i] == t[j]:
+			print ("true")
+			k = k + 1
+		else:  
+			print ("false")
+			
+print (k)
+if k == len(s):
+	print ("the two words are anagrams")
+else:
+	print ("the two words are not anagrams") 
+		

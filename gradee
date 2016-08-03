@@ -1,0 +1,14 @@
+grade = ("FFDCBA")
+
+score = eval(input("What is your score: "))
+
+score + 1
+
+if score >= 6:
+	print ("no way san jose")
+else:
+	print (grade[score])
+
+
+
+
